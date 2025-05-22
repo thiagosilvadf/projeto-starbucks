@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%; /* ocupar 100% da tela */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textos {
+    width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+span {
+    color: #017143;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background-color: #017143;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 12px;
+    transition: 0,4s;
+}
+
+button:hover {
+    background-color: #018950ad;
+}
+
+.imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+}
+
+.starbucks {
+    width: 340px;
+}
