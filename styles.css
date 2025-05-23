@@ -1,17 +1,18 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    font-family: "Lexend", sans-serif;
 }
 
 body {
-    padding-top: 20px;
-    padding-right: 100px;
+    padding: 20px;
     padding-left: 100px;
+    padding-right: 70px;
+    overflow: hidden;
 }
 
 .conteudo {
-    width: 100%; /* ocupar 100% da tela */
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +30,7 @@ h2 {
 
 span {
     color: #017143;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
 }
 
@@ -37,43 +38,63 @@ p {
     font-size: 16px;
 }
 
-button {
+.link {
+    display: inline-block;
     background-color: #017143;
     color: white;
+    cursor: pointer;
     border-radius: 40px;
     border: none;
-    cursor: pointer;
     padding: 10px;
-    margin-top: 12px;
-    transition: 0,4s;
+    margin-top: 20px;
+    text-decoration: none;
 }
 
-button:hover {
-    background-color: #018950ad;
+.jerry {
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #1a9b65;
+    transform: translateY(-2px);
 }
 
 .imagem {
+    margin-top: 250px;
     width: 600px;
     display: flex;
     justify-content: flex-end;
+    margin-left: 450px;
+}
+
+.starbucks {
+    height: 500px;
 }
 
 .menu {
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
 }
 
 .botao-menu {
     width: 60px;
     cursor: pointer;
-    transition: 0.7s;
 }
 
 .botao-menu:hover {
-    transform: translateY(-25px);
+    transform: translateY(-18px);
 }
 
-.starbucks {
-    width: 340px;
+.circulo {
+    width: 100%;
+    height: 100%;
+    background-color: #017143;
+    position: absolute;
+    clip-path: circle(600px at right 700px);
+    z-index: -1;
 }
+
