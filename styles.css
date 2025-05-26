@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Lexend", sans-serif;
@@ -50,10 +50,6 @@ p {
     text-decoration: none;
 }
 
-.jerry {
-    text-decoration: underline;
-}
-
 a:hover {
     background-color: #1a9b65;
     transform: translateY(-2px);
@@ -101,35 +97,68 @@ a:hover {
 /* Estilos responsivos para telas menores */
 @media (max-width: 768px) {
     body {
-        padding-left: 20px; /* Reduzindo o padding para celulares */
-        padding-right: 20px; /* Reduzindo o padding para celulares */
+        padding-left: 20px;
+        /* Reduzindo o padding para celulares */
+        padding-right: 20px;
+        /* Reduzindo o padding para celulares */
     }
 
     .conteudo {
-        flex-direction: column; /* Mudando a direção do flex para coluna */
-        align-items: flex-start; /* Alinhando itens ao início */
+        flex-direction: column;
+        /* Mudando a direção do flex para coluna */
+        align-items: flex-start;
+        /* Alinhando itens ao início */
     }
 
     .textos {
-        width: 100%; /* Ajustando a largura para 100% */
-        text-align: center; /* Centralizando o texto */
+        width: 100%;
+        /* Ajustando a largura para 100% */
+        text-align: center;
+        /* Centralizando o texto */
     }
 
     h2 {
-        font-size: 40px; /* Diminuindo o tamanho da fonte */
+        font-size: 40px;
+        /* Diminuindo o tamanho da fonte */
     }
 
     span {
-        font-size: 50px; /* Diminuindo o tamanho da fonte */
+        font-size: 50px;
+        /* Diminuindo o tamanho da fonte */
     }
 
     .imagem {
-        width: 100%; /* Ajustando a largura da imagem */
-        margin-left: 0; /* Removendo a margem esquerda */
-        margin-top: 30px; /* Ajustando a margem superior */
+        width: 100%;
+        /* Ajustando a largura da imagem */
+        margin-left: 0;
+        /* Removendo a margem esquerda */
+        margin-top: 30px;
+        /* Ajustando a margem superior */
     }
 
     .menu {
-        padding: 5px; /* Ajustando o padding do menu */
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        /* Ajustando o padding do menu */
+    }
+
+    .botao-menu {
+        display: flex;
+        justify-content: center;
+        width: 60px;
+        cursor: pointer;
+    }
+
+    .botao-menu:hover {
+        transform: translateY(-18px);
+    }
+
+    .link {
+        background-color: #0b5637;
+    }
+
+    .link:hover {
+        background-color: #09643e;
     }
 }
