@@ -20,8 +20,15 @@ Quando estamos no JavaScript e queremos chamar o HTML, usamos o document
 */
 
 let circulo = document.querySelector(".circulo")
+let imagem = document.querySelector(".starbucks")
+
 
 function trocarCor(cor) {
     circulo.style.background = cor
 }
+
+function trocaimagem(img) {
+    imagem.src = img
+}
+
 
