@@ -164,6 +164,6 @@ a:hover {
     }
 
     .circulo {
-        clip-path: circle(600px at right 800px);
+        clip-path: circle(600px at right 950px);
     }
 }
