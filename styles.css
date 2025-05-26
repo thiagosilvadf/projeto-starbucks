@@ -97,6 +97,7 @@ a:hover {
 /* Estilos responsivos para telas menores */
 @media (max-width: 768px) {
     body {
+        margin: 0;
         padding-left: 20px;
         /* Reduzindo o padding para celulares */
         padding-right: 20px;
