@@ -101,6 +101,7 @@ a:hover {
         /* Reduzindo o padding para celulares */
         padding-right: 20px;
         /* Reduzindo o padding para celulares */
+        overflow: hidden;
     }
 
     .conteudo {
@@ -160,5 +161,9 @@ a:hover {
 
     .link:hover {
         background-color: #09643e;
+    }
+
+    .circulo {
+        clip-path: circle(600px at right 800px);
     }
 }
